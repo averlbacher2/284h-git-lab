@@ -47,6 +47,8 @@ Select a partner and assign the roles of Repository Owner (RO) and Editing Teamm
     - Write a description of this lab and format the text using Markdown syntax.
     - Commit the changes directly to the `main` branch.
 
+    This is a lab. And it's about Git.
+
 5. Adding a New Function and Test
 
     **RO Tasks**:
