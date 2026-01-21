@@ -63,3 +63,7 @@ def is_prime(n):
 def add_numbers(a, b):
     """Returns the correct sum of two numbers."""
     return a + b
+
+def random_fuction():
+    return True
+
