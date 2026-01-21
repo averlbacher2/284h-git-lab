@@ -8,7 +8,7 @@ from git_lab import (
 )
 import math
 import unittest
-from src.git_lab import add_numbers
+from git_lab import add_numbers
 
 class TestUtils(unittest.TestCase):
 
@@ -49,13 +49,10 @@ class TestUtils(unittest.TestCase):
         self.assertTrue(is_prime(31))
         self.assertFalse(is_prime(100))
 
+    def test_add_numbers(self):
+        self.assertEqual(add_numbers(2, 3), 5)
+        self.assertEqual(add_numbers(-1, 1), 0) 
+
 if __name__ == '__main__':
     unittest.main()
 
-class TestGitLab(unittest.TestCase):
-    def test_add_numbers(self):
-        self.assertEqual(add_numbers(2, 3), 5)
-        self.assertEqual(add_numbers(-1, 1), 0)
-
-if __name__ == "__main__":
-    unittest.main()
